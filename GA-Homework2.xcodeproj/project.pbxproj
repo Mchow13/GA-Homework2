@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CB1724E1BAF380E00B36F27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB1724D1BAF380E00B36F27 /* AppDelegate.swift */; };
+		2CB172501BAF380E00B36F27 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB1724F1BAF380E00B36F27 /* ViewController.swift */; };
+		2CB172531BAF380E00B36F27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CB172511BAF380E00B36F27 /* Main.storyboard */; };
+		2CB172551BAF380E00B36F27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CB172541BAF380E00B36F27 /* Assets.xcassets */; };
+		2CB172581BAF380E00B36F27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CB172561BAF380E00B36F27 /* LaunchScreen.storyboard */; };
+		2CB172631BAF380E00B36F27 /* GA_Homework2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB172621BAF380E00B36F27 /* GA_Homework2Tests.swift */; };
+		2CB1726E1BAF380E00B36F27 /* GA_Homework2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB1726D1BAF380E00B36F27 /* GA_Homework2UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2CB1725F1BAF380E00B36F27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CB172421BAF380E00B36F27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CB172491BAF380E00B36F27;
+			remoteInfo = "GA-Homework2";
+		};
+		2CB1726A1BAF380E00B36F27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CB172421BAF380E00B36F27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CB172491BAF380E00B36F27;
+			remoteInfo = "GA-Homework2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2CB1724A1BAF380E00B36F27 /* GA-Homework2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GA-Homework2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CB1724D1BAF380E00B36F27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2CB1724F1BAF380E00B36F27 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2CB172521BAF380E00B36F27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2CB172541BAF380E00B36F27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2CB172571BAF380E00B36F27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2CB172591BAF380E00B36F27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CB1725E1BAF380E00B36F27 /* GA-Homework2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GA-Homework2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CB172621BAF380E00B36F27 /* GA_Homework2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GA_Homework2Tests.swift; sourceTree = "<group>"; };
+		2CB172641BAF380E00B36F27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CB172691BAF380E00B36F27 /* GA-Homework2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GA-Homework2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CB1726D1BAF380E00B36F27 /* GA_Homework2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GA_Homework2UITests.swift; sourceTree = "<group>"; };
+		2CB1726F1BAF380E00B36F27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CB172471BAF380E00B36F27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CB1725B1BAF380E00B36F27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CB172661BAF380E00B36F27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CB172411BAF380E00B36F27 = {
+			isa = PBXGroup;
+			children = (
+				2CB1724C1BAF380E00B36F27 /* GA-Homework2 */,
+				2CB172611BAF380E00B36F27 /* GA-Homework2Tests */,
+				2CB1726C1BAF380E00B36F27 /* GA-Homework2UITests */,
+				2CB1724B1BAF380E00B36F27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2CB1724B1BAF380E00B36F27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CB1724A1BAF380E00B36F27 /* GA-Homework2.app */,
+				2CB1725E1BAF380E00B36F27 /* GA-Homework2Tests.xctest */,
+				2CB172691BAF380E00B36F27 /* GA-Homework2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CB1724C1BAF380E00B36F27 /* GA-Homework2 */ = {
+			isa = PBXGroup;
+			children = (
+				2CB1724D1BAF380E00B36F27 /* AppDelegate.swift */,
+				2CB1724F1BAF380E00B36F27 /* ViewController.swift */,
+				2CB172511BAF380E00B36F27 /* Main.storyboard */,
+				2CB172541BAF380E00B36F27 /* Assets.xcassets */,
+				2CB172561BAF380E00B36F27 /* LaunchScreen.storyboard */,
+				2CB172591BAF380E00B36F27 /* Info.plist */,
+			);
+			path = "GA-Homework2";
+			sourceTree = "<group>";
+		};
+		2CB172611BAF380E00B36F27 /* GA-Homework2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2CB172621BAF380E00B36F27 /* GA_Homework2Tests.swift */,
+				2CB172641BAF380E00B36F27 /* Info.plist */,
+			);
+			path = "GA-Homework2Tests";
+			sourceTree = "<group>";
+		};
+		2CB1726C1BAF380E00B36F27 /* GA-Homework2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				2CB1726D1BAF380E00B36F27 /* GA_Homework2UITests.swift */,
+				2CB1726F1BAF380E00B36F27 /* Info.plist */,
+			);
+			path = "GA-Homework2UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CB172491BAF380E00B36F27 /* GA-Homework2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CB172721BAF380E00B36F27 /* Build configuration list for PBXNativeTarget "GA-Homework2" */;
+			buildPhases = (
+				2CB172461BAF380E00B36F27 /* Sources */,
+				2CB172471BAF380E00B36F27 /* Frameworks */,
+				2CB172481BAF380E00B36F27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GA-Homework2";
+			productName = "GA-Homework2";
+			productReference = 2CB1724A1BAF380E00B36F27 /* GA-Homework2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2CB1725D1BAF380E00B36F27 /* GA-Homework2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CB172751BAF380E00B36F27 /* Build configuration list for PBXNativeTarget "GA-Homework2Tests" */;
+			buildPhases = (
+				2CB1725A1BAF380E00B36F27 /* Sources */,
+				2CB1725B1BAF380E00B36F27 /* Frameworks */,
+				2CB1725C1BAF380E00B36F27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CB172601BAF380E00B36F27 /* PBXTargetDependency */,
+			);
+			name = "GA-Homework2Tests";
+			productName = "GA-Homework2Tests";
+			productReference = 2CB1725E1BAF380E00B36F27 /* GA-Homework2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2CB172681BAF380E00B36F27 /* GA-Homework2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CB172781BAF380E00B36F27 /* Build configuration list for PBXNativeTarget "GA-Homework2UITests" */;
+			buildPhases = (
+				2CB172651BAF380E00B36F27 /* Sources */,
+				2CB172661BAF380E00B36F27 /* Frameworks */,
+				2CB172671BAF380E00B36F27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CB1726B1BAF380E00B36F27 /* PBXTargetDependency */,
+			);
+			name = "GA-Homework2UITests";
+			productName = "GA-Homework2UITests";
+			productReference = 2CB172691BAF380E00B36F27 /* GA-Homework2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CB172421BAF380E00B36F27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = marvinchow;
+				TargetAttributes = {
+					2CB172491BAF380E00B36F27 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					2CB1725D1BAF380E00B36F27 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 2CB172491BAF380E00B36F27;
+					};
+					2CB172681BAF380E00B36F27 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 2CB172491BAF380E00B36F27;
+					};
+				};
+			};
+			buildConfigurationList = 2CB172451BAF380E00B36F27 /* Build configuration list for PBXProject "GA-Homework2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2CB172411BAF380E00B36F27;
+			productRefGroup = 2CB1724B1BAF380E00B36F27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CB172491BAF380E00B36F27 /* GA-Homework2 */,
+				2CB1725D1BAF380E00B36F27 /* GA-Homework2Tests */,
+				2CB172681BAF380E00B36F27 /* GA-Homework2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CB172481BAF380E00B36F27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CB172581BAF380E00B36F27 /* LaunchScreen.storyboard in Resources */,
+				2CB172551BAF380E00B36F27 /* Assets.xcassets in Resources */,
+				2CB172531BAF380E00B36F27 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CB1725C1BAF380E00B36F27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CB172671BAF380E00B36F27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CB172461BAF380E00B36F27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CB172501BAF380E00B36F27 /* ViewController.swift in Sources */,
+				2CB1724E1BAF380E00B36F27 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CB1725A1BAF380E00B36F27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CB172631BAF380E00B36F27 /* GA_Homework2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CB172651BAF380E00B36F27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CB1726E1BAF380E00B36F27 /* GA_Homework2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2CB172601BAF380E00B36F27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CB172491BAF380E00B36F27 /* GA-Homework2 */;
+			targetProxy = 2CB1725F1BAF380E00B36F27 /* PBXContainerItemProxy */;
+		};
+		2CB1726B1BAF380E00B36F27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CB172491BAF380E00B36F27 /* GA-Homework2 */;
+			targetProxy = 2CB1726A1BAF380E00B36F27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2CB172511BAF380E00B36F27 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CB172521BAF380E00B36F27 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2CB172561BAF380E00B36F27 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CB172571BAF380E00B36F27 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CB172701BAF380E00B36F27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2CB172711BAF380E00B36F27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CB172731BAF380E00B36F27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "GA-Homework2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.generalassembly.GA-Homework2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2CB172741BAF380E00B36F27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "GA-Homework2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.generalassembly.GA-Homework2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2CB172761BAF380E00B36F27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "GA-Homework2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.generalassembly.GA-Homework2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GA-Homework2.app/GA-Homework2";
+			};
+			name = Debug;
+		};
+		2CB172771BAF380E00B36F27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "GA-Homework2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.generalassembly.GA-Homework2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GA-Homework2.app/GA-Homework2";
+			};
+			name = Release;
+		};
+		2CB172791BAF380E00B36F27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "GA-Homework2UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.generalassembly.GA-Homework2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "GA-Homework2";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		2CB1727A1BAF380E00B36F27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "GA-Homework2UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.generalassembly.GA-Homework2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "GA-Homework2";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CB172451BAF380E00B36F27 /* Build configuration list for PBXProject "GA-Homework2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CB172701BAF380E00B36F27 /* Debug */,
+				2CB172711BAF380E00B36F27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CB172721BAF380E00B36F27 /* Build configuration list for PBXNativeTarget "GA-Homework2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CB172731BAF380E00B36F27 /* Debug */,
+				2CB172741BAF380E00B36F27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2CB172751BAF380E00B36F27 /* Build configuration list for PBXNativeTarget "GA-Homework2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CB172761BAF380E00B36F27 /* Debug */,
+				2CB172771BAF380E00B36F27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2CB172781BAF380E00B36F27 /* Build configuration list for PBXNativeTarget "GA-Homework2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CB172791BAF380E00B36F27 /* Debug */,
+				2CB1727A1BAF380E00B36F27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CB172421BAF380E00B36F27 /* Project object */;
+}
